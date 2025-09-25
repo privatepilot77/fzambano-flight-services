@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FZambano Flight Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo FZambano" class="logo">
+    <h1>Le vol privé réinventé</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="about">
+    <h2>À propos</h2>
+    <p>FZambano Flight Services propose des vols privés haut de gamme avec une attention particulière à la sécurité, au confort et à la personnalisation de l’expérience client.</p>
+  </section>
+  <section id="services">
+    <h2>Nos services</h2>
+    <ul>
+      <li>Vols privés sur mesure</li>
+      <li>Transferts VIP</li>
+      <li>Vols panoramiques</li>
+      <li>Location d’avions avec pilote</li>
+    </ul>
+  </section>
+  <section id="gallery">
+    <h2>Galerie d’avions</h2>
+    <div class="gallery">
+      <img src="logo.jpg" alt="Appareil FZambano" class="gallery-img">
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form id="contact-form">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <div id="form-message"></div>
+  </section>
+  <footer>
+    <p>&copy; 2024 FZambano Flight Services - Tous droits réservés</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
